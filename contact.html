@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Contact</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="image/McLaren-Racing-NoTagline-Wht.png" alt="McLaren Logo">
+    </div>
+
+
+    <ul class="nav-links">
+      <li><a href="index.html.html">Home</a></li>
+      <li><a href="About.html.html">About Us</a></li>
+      <li><a href="Shop.html.html">Store</a></li>
+
+      <li class="dropdown">
+        <a href="#">Model ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="Sport Series.html.html">Sport Series</a></li>
+          <li><a href="Ultimate Series.html.html">Super Series</a></li>
+          <li><a href="Ultimate Series.html.html">Ultimate Series</a></li>
+          <li><a href="Hybrid.html.html">Hybrid</a></li>
+          <li><a href="Race Cars.html.html">Race Cars</a></li>
+        </ul>
+      </li>
+
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="portfolio-wrapper">
+    <section class="profile-header">
+      <div class="profile-img-container">
+        <img src="image/d6d7253c-5ee9-46f1-8f85-9cf4515de318.jfif" alt="Your Photo" class="profile-pic">
+      </div>
+      <div class="profile-bio">
+        <h1>Future IT Professional</h1>
+        <p class="tagline">Specializing in Systems Architecture & Web Development</p>
+        <p class="description">
+          I am an IT student driven by the same precision and performance that defines McLaren.
+          Focusing on efficient code and robust hardware solutions.
+        </p>
+        <div class="social-links">
+          <a href="#" class="btn-small">GitHub</a>
+          <a href="#" class="btn-small">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="education-section">
+      <h2 class="section-title">Education</h2>
+      <div class="education-container">
+        <div class="education-card">
+          <h3>Bachelor of Science in Information Technology</h3>
+          <p class="edu-school">INNOVATIVE COLLEGE OF SCIENCE AND TECHNOLOGY</p>
+          <p class="edu-year">2025 - 2026</p>
+          <p class="edu-desc">
+            Focused on Systems Architecture, Web Development, and Networking.
+            Developed projects involving full-stack applications and database systems.
+          </p>
+        </div>
+
+        <div class="education-card">
+          <h3>Senior High School</h3>
+          <p class="edu-school">SAN ROQUE NATIONAL HIGH SCHOOL</p>
+          <p class="edu-year">2024 - 2025</p>
+          <p class="edu-desc">
+            Specialized in ICT strand with emphasis on programming and computer systems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="interests-section">
+      <h2 class="section-title">Interests</h2>
+      <div class="interests-container">
+        <div class="interest-card">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>Building modern, responsive, and high-performance websites.</p>
+        </div>
+
+        <div class="interest-card">
+          <i class="fas fa-network-wired"></i>
+          <h3>Networking</h3>
+          <p>Exploring network design, security, and infrastructure.</p>
+        </div>
+
+        <div class="interest-card">
+          <i class="fas fa-microchip"></i>
+          <h3>Technology</h3>
+          <p>Keeping up with the latest trends in hardware and software.</p>
+        </div>
+
+        <div class="interest-card">
+          <i class="fas fa-car"></i>
+          <h3>Automotive</h3>
+          <p>Inspired by performance engineering and innovation like McLaren.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <h2 class="section-title">Technical Specs</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>HTML5, CSS3, JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <p>Python, SQL, PHP</p>
+        </div>
+        <div class="skill-card">
+          <h3>Networking</h3>
+          <p>Cisco Packet Tracer, TCP/IP</p>
+        </div>
+      </div>
+    </section>
+    <!-- Trigger Button -->
+
+
+
+
+  </main>
+
+  <!-- CONTACT BUTTON -->
+  <a href="#contactModal" class="contact-btn">Contact Me</a>
+
+  <!-- CONTACT POPUP -->
+  <div id="contactModal" class="contact-modal">
+    <div class="contact-content">
+
+      <h2>Contact Me</h2>
+
+      <!-- CLOSE BUTTON INSIDE BOX -->
+      <a href="#" class="close-btn">×</a>
+
+      <div class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+
+        <!-- BUTTON PAPUNTA SUCCESS -->
+        <a href="#successPopup" class="send-btn">Send</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SUCCESS POPUP -->
+  <div id="successPopup" class="success-popup">
+    <div class="success-box">
+      <h3>Message Sent ✅</h3>
+      <p>Thank you! I’ll get back to you soon.</p>
+      <a href="#" class="ok-btn">OK</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p class="footer-main">This is for educational purposes only</p>
+    <p class="footer-sub">© 2026 Student Portfolio inspired by McLaren</p>
+  </footer>
+  </footer>
+  <ul class="wrapper">
+
+    <li class="icon facebook">
+      <a href="https://www.facebook.com/johnlloyd.viraye.9" target="_blank">
+        <span class="tooltip">Facebook</span>
+        <span><i class="fab fa-facebook-f"></i></span>
+      </a>
+    </li>
+
+
+
+  </ul>
+
+
+
+</body>
+
+</html>
